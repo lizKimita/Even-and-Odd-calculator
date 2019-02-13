@@ -15,7 +15,7 @@ var number2 = parseInt(prompt("Enter another number:"));
 var result = divide(number1, number2);
 alert(result);
 if (result%2 === 0 ) {
-console.log ("the number is even");
+alert ("the number is even");
 }else {
-console.log ("the number is not even");
+alert ("the number is Odd");
 }
